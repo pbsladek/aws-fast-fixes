@@ -29,13 +29,15 @@ def main(args, logger):
         try:
             status_response = s3_client.get_public_access_block(Bucket=bucket)
             if 'PublicAccessBlockConfiguration' not in status_response:
-                logger.error(f"Unable to get PublicAccessBlockConfiguration for bucket: {bucket}. This is not expected and nothing will be done.")
+                logger.error(
+                    f"Unable to get PublicAccessBlockConfiguration for bucket: {bucket}. This is not expected and nothing will be done.")
                 continue
             if (status_response['PublicAccessBlockConfiguration']['BlockPublicAcls'] is True and
                 status_response['PublicAccessBlockConfiguration']['IgnorePublicAcls'] is True and
                 status_response['PublicAccessBlockConfiguration']['BlockPublicPolicy'] is True and
-                status_response['PublicAccessBlockConfiguration']['RestrictPublicBuckets'] is True):
-                logger.debug(f"Bucket {bucket} already has all four block public access settings enabled")
+                    status_response['PublicAccessBlockConfiguration']['RestrictPublicBuckets'] is True):
+                logger.debug(
+                    f"Bucket {bucket} already has all four block public access settings enabled")
                 continue
             else:
                 fix_bucket(s3_client, bucket, args, f)
@@ -44,26 +46,30 @@ def main(args, logger):
             if e.response['Error']['Code'] == 'NoSuchPublicAccessBlockConfiguration':
                 fix_bucket(s3_client, bucket, args, f)
             elif e.response['Error']['Code'] == 'AccessDeniedException':
-                logger.warning(f"Unable to get details of key {bucket}: AccessDenied")
+                logger.warning(
+                    f"Unable to get details of key {bucket}: AccessDenied")
                 continue
             else:
-                raise
-
+                logger.warning(e)
+                continue
 
     if args.filename:
         f.close()
 
+
 def fix_bucket(s3_client, bucket, args, f=None):
     '''Determine if the Bucket is safe to fix. Do the fix or write the AWS CLI or just notify based on args '''
     if not is_safe_to_fix_bucket(s3_client, bucket):
-        logger.warning(f"Bucket {bucket} has a bucket policy or ACLs that could conflict with Block Public Access. Not Enabling it.")
+        logger.warning(
+            f"Bucket {bucket} has a bucket policy or ACLs that could conflict with Block Public Access. Not Enabling it.")
         return(False)
     elif args.actually_do_it is True:
         logger.info(f"Enabling Block Public Access on {bucket}")
         rc = enable_block_public_access(s3_client, bucket)
         return(rc)
     elif f is not None:
-        logger.info(f"You Need To Enable Block Public Access on {bucket}. Writing AWS CLI command")
+        logger.info(
+            f"You Need To Enable Block Public Access on {bucket}. Writing AWS CLI command")
         command = f"\necho 'Enabling Block Public Access on {bucket}'\n"
         command += f"aws s3api put-public-access-block --bucket {bucket} "
         command += "--public-access-block-configuration BlockPublicAcls=True,IgnorePublicAcls=True,BlockPublicPolicy=True,RestrictPublicBuckets=True"
@@ -74,6 +80,7 @@ def fix_bucket(s3_client, bucket, args, f=None):
     else:
         logger.info(f"You Need To Enable Block Public Access on {bucket}")
         return(True)
+
 
 def is_safe_to_fix_bucket(s3_client, bucket_name):
     '''Check ACLS and Policy to see if Bucket is safe to fix'''
@@ -95,6 +102,7 @@ def is_safe_to_fix_by_acl(s3_client, bucket_name):
     except ClientError as e:
         logger.error(f"ClientError getting Bucket {bucket_name} ACL: {e} ")
         return(False)  # Not Safe if we get this error
+
 
 def is_safe_to_fix_by_policy(s3_client, bucket_name):
     '''Inspect the Bucket Policy to make sure there are no conditions granting access that could conflict with this'''
@@ -136,7 +144,8 @@ def enable_block_public_access(s3_client, bucket_name):
     if response['ResponseMetadata']['HTTPStatusCode'] == 200:
         return(True)
     else:
-        logger.error(f"Attempt to enable default encryption for {bucket_name} returned {response}")
+        logger.error(
+            f"Attempt to enable default encryption for {bucket_name} returned {response}")
         return(False)
 
 
@@ -168,20 +177,26 @@ def get_regions(session, args):
     return(output)
 
 
-
 def do_args():
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--debug", help="print debugging info", action='store_true')
-    parser.add_argument("--error", help="print error info only", action='store_true')
-    parser.add_argument("--timestamp", help="Output log with timestamp and toolname", action='store_true')
-    parser.add_argument("--profile", help="Use this CLI profile (instead of default or env credentials)")
-    parser.add_argument("--actually-do-it", help="Actually Perform the action", action='store_true')
-    parser.add_argument("--output-script", dest="filename", help="Write CLI Commands to FILENAME for later execution")
+    parser.add_argument(
+        "--debug", help="print debugging info", action='store_true')
+    parser.add_argument(
+        "--error", help="print error info only", action='store_true')
+    parser.add_argument(
+        "--timestamp", help="Output log with timestamp and toolname", action='store_true')
+    parser.add_argument(
+        "--profile", help="Use this CLI profile (instead of default or env credentials)")
+    parser.add_argument(
+        "--actually-do-it", help="Actually Perform the action", action='store_true')
+    parser.add_argument("--output-script", dest="filename",
+                        help="Write CLI Commands to FILENAME for later execution")
 
     args = parser.parse_args()
 
     return(args)
+
 
 if __name__ == '__main__':
 
@@ -205,7 +220,8 @@ if __name__ == '__main__':
 
     # create formatter
     if args.timestamp:
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter(
+            '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     else:
         formatter = logging.Formatter('%(levelname)s - %(message)s')
     # add formatter to ch
