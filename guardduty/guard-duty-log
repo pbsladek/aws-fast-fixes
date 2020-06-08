@@ -1,0 +1,507 @@
+~/Code/warnerbros/aws-fast-fixes/guardduty
+🍺  ./enable-guard-duty-multi-account.sh "python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137"
+Using ask aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation a8b83eae4fd6e79bb7bebec6307ec54d from 987569341137 for 66b94a917e92a7e0f988b6337d918def in us-east-1
+INFO - Accepting invitation a8b83eae56ad10c94815c283577a3aa8 from 987569341137 for f0b94a91837f0a79e02e7938b5e46236 in eu-north-1
+INFO - Accepting invitation b8b83eae4a105c0708c6b9a5d1cebbd0 from 987569341137 for bcb94a918a73db2b4a0a16781d600807 in ap-south-1
+INFO - Accepting invitation fcb83eae426a6b25b0a24554fc22a739 from 987569341137 for f2b94a9190d348b5841286951094f5de in eu-west-3
+INFO - Accepting invitation 42b83eae50613e78a527489813d203e9 from 987569341137 for 4ab94a91dcee40e77de08a476f337028 in eu-west-2
+INFO - Accepting invitation 30b83eae3f2f2365cc935378f5a32bca from 987569341137 for 7cb94a91e01fdfe0eb370c91acb6314a in eu-west-1
+INFO - Accepting invitation 62b83eae406ad2c2fb3c490d734ad005 from 987569341137 for 20b94a91e39c3fa6ee7ddbe05ba04b19 in ap-northeast-2
+INFO - Accepting invitation 86b83eae54bfcab2bb7423a629d7e2a3 from 987569341137 for d8b94a91e6bce823f81e6bf53926a9c8 in ap-northeast-1
+INFO - Accepting invitation 18b83eae4454e6d0e9979b45d890d8de from 987569341137 for 24b94a91eadfef26bd869fabb29e741a in sa-east-1
+INFO - Accepting invitation eeb83eae43996ab6fbd1cd6080582a92 from 987569341137 for 82b94a91eea1db58c33bb4c25c8fca43 in ca-central-1
+INFO - Accepting invitation 46b83eae46f6b9a646eebfbd53b5839f from 987569341137 for 84b94a91f2f1d40f83e542e1122c98f8 in ap-southeast-1
+INFO - Accepting invitation deb83eae4d9f307289801cfe05f04467 from 987569341137 for b8b94a91f766e870827e0eb00bac9bae in ap-southeast-2
+INFO - Accepting invitation 40b83eae519207138069c3f5d0b26093 from 987569341137 for d4b94a91fba4c0879e05e21667dfccdc in eu-central-1
+INFO - Accepting invitation 50b83eae495270e006a47222ff884d73 from 987569341137 for f0b94a91fe73a7ae8b50fe1397f83234 in us-east-2
+INFO - Accepting invitation b0b83eae4c7570f245d729e979920093 from 987569341137 for 20b94a920034c74722b0b85db521a554 in us-west-1
+INFO - Accepting invitation 9ab83eae52d5db5c3102dbb92c1e87ab from 987569341137 for 06b94a9201ad4b48fd83ec6b4c9a623d in us-west-2
+Using ask-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using cn-micro-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation 64b83eae68712d7a7239a21d273f70e4 from 987569341137 for 82b94a922807034681c8ba28e59813fe in us-east-1
+INFO - Accepting invitation 06b83eae6f8aca5f8819223178449a95 from 987569341137 for 32b94a922cf85877c5cf2d461a4f9749 in eu-north-1
+INFO - Accepting invitation 7cb83eae62a25607aa578994fad39afb from 987569341137 for 64b94a92333d93685bca5a58c5de6833 in ap-south-1
+INFO - Accepting invitation 80b83eae5b8c58d7f062cce44d2b728f from 987569341137 for 02b94a923989b333c7dcb694736ec51c in eu-west-3
+INFO - Accepting invitation 8eb83eae6916d1db2d127408104e1345 from 987569341137 for 0cb94a923de1156aa8df905b6d1400ef in eu-west-2
+INFO - Accepting invitation 2cb83eae581cafd1f02438b4532dfedf from 987569341137 for e2b94a9240fc26e1bbba4ea252ae5335 in eu-west-1
+INFO - Accepting invitation 2ab83eae597e531b0ab6da452f85e7b8 from 987569341137 for 7ab94a9244691e0b5cfb9acf6d93e684 in ap-northeast-2
+INFO - Accepting invitation f4b83eae6d8795e634a3f346adc6b485 from 987569341137 for 50b94a92486748720a680a74a289be2d in ap-northeast-1
+INFO - Accepting invitation d8b83eae5d5560838e3c167a529adc23 from 987569341137 for 4eb94a924cc1992a53be45ba8b321298 in sa-east-1
+INFO - Accepting invitation 48b83eae5ca471cb58832454f115456c from 987569341137 for c8b94a925042c023604dbd989fdab134 in ca-central-1
+INFO - Accepting invitation 06b83eae5f18dd4494e2e8425043c476 from 987569341137 for ceb94a92543f0cd08878a917fa1eab21 in ap-southeast-1
+INFO - Accepting invitation 7eb83eae664bc868a4d4a3bb0d9a4cf7 from 987569341137 for 94b94a925837a73ee3d7774ad160a321 in ap-southeast-2
+INFO - Accepting invitation e4b83eae6a624fc1b06261ab16ae83db from 987569341137 for c0b94a925c8c0cb62454fa1164891136 in eu-central-1
+INFO - Accepting invitation 56b83eae619542a8d7f38527a1ddeda5 from 987569341137 for a6b94a925ec8fcdb31f07d797c6987cc in us-east-2
+INFO - Accepting invitation 20b83eae6531934addddf12da9700480 from 987569341137 for 7ab94a92605a1a12b4af433c57a9fe0b in us-west-1
+INFO - Accepting invitation 78b83eae6bf81a13792de1a1f73dba83 from 987569341137 for 48b94a926195f78f72db59cc721f2bee in us-west-2
+Using cn-micro-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation e2b83eae8141c05f423598686b6f4399 from 987569341137 for 32b94a926498a0c696a4a1853b6c706f in us-east-1
+INFO - Accepting invitation d0b83eae87cc56f7de7735ba4a49b41d from 987569341137 for 9eb94a9268c265ed31496ee3cfeffd47 in eu-north-1
+INFO - Accepting invitation b0b83eae7b79e1ff91f207e38b999ff0 from 987569341137 for 88b94a92700c0e442fd9b052049e6f67 in ap-south-1
+INFO - Accepting invitation deb83eae74d4854fc9d20f9a5f381a37 from 987569341137 for 9ab94a927615a46e3d50d1aa890a2dc0 in eu-west-3
+INFO - Accepting invitation c0b83eae81c9a50a951b65f32a6d15d6 from 987569341137 for 9eb94a927a4c3bf4620f2b2f77f4075d in eu-west-2
+INFO - Accepting invitation 3ab83eae716156670ad6e24a3aa9f88b from 987569341137 for aab94a927da8949f3a8ff685e2b19ba1 in eu-west-1
+INFO - Accepting invitation 36b83eae72ab0d6beb1c28af79c015c8 from 987569341137 for 7ab94a928130afa1746dacaec1c720e3 in ap-northeast-2
+INFO - Accepting invitation f4b83eae85f53f749134f72d385aa1c1 from 987569341137 for d0b94a9284eb825c62f598a1b50638d0 in ap-northeast-1
+INFO - Accepting invitation ecb83eae76bb48039fcacfeb15772694 from 987569341137 for 10b94a9288cff74a7c9aacf29e312776 in sa-east-1
+INFO - Accepting invitation 70b83eae75f6090e73b9c41c4c70ff59 from 987569341137 for eab94a928c5cef4897969ee3f39ea714 in ca-central-1
+INFO - Accepting invitation cab83eae7857f7416acdba9e7773fc9e from 987569341137 for 5cb94a928feceb6d6e12c5ad24a89ea2 in ap-southeast-1
+INFO - Accepting invitation d6b83eae7f0a1b1906a9a524978adf94 from 987569341137 for 72b94a9292a3f57eb62402e07905c1be in ap-southeast-2
+INFO - Accepting invitation b2b83eae837491767cf3e6c5d5936a9a from 987569341137 for b4b94a9296ae5cbe9080f3d44f0e5390 in eu-central-1
+INFO - Accepting invitation d8b83eae7aad9d08bbdac5107b045a6b from 987569341137 for d6b94a929a029e9d5168f690f921ad93 in us-east-2
+INFO - Accepting invitation a2b83eae7dcda9b0b603b506708c8fbf from 987569341137 for 4ab94a929b9283c2d75ba7c2a60c3e3b in us-west-1
+INFO - Accepting invitation 30b83eae84a69bc42c3aaa15a2df9071 from 987569341137 for 20b94a929e370d1a2ba0fb906562f783 in us-west-2
+Using cnd aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation 16b83ec28315eff891d4bf3fc31d77bf from 987569341137 for 88b94a92a12bcb564ca1d17ed6d34fef in us-east-1
+INFO - Accepting invitation 9ab83ec28980e9120cf632085d696699 from 987569341137 for 6cb94a92a43f89ebf3d9864fae2a2980 in eu-north-1
+INFO - Accepting invitation 24b83ec27da1e440bfd3df9250a86dfd from 987569341137 for 5cb94a92a95fb44e6665ebd7d237d0ab in ap-south-1
+INFO - Accepting invitation 20b83ec276ef56991d41a19d7f4eafb7 from 987569341137 for 96b94a92ade7eec52bea3462055a4356 in eu-west-3
+INFO - Accepting invitation 4cb83ec283b4629f2434e5b954af92ff from 987569341137 for 5ab94a92b17687e90b04e3527b7ca8e8 in eu-west-2
+INFO - Accepting invitation a2b83ec27391d9e2c7c18c6ce98d6d9e from 987569341137 for e4b94a92b476bb9fa221c2d7ca57ecfe in eu-west-1
+INFO - Accepting invitation fab83ec274e2ef23f98eccb8c0d5bd0f from 987569341137 for 0ab94a92b84f55ca8ad9a6efb9d8a26e in ap-northeast-2
+INFO - Accepting invitation 54b83ec287889b628b8ded4e4c46a322 from 987569341137 for 00b94a92bc2595fd0d11171068c3aa6b in ap-northeast-1
+INFO - Accepting invitation 3ab83ec278bd09b7804b5145afb3a264 from 987569341137 for 42b94a92c009b63c07becd34c9f27eb7 in sa-east-1
+INFO - Accepting invitation e8b83ec2781162dbce09f699525ca90a from 987569341137 for d6b94a92c339987556a0871b11ea8267 in ca-central-1
+INFO - Accepting invitation 50b83ec27a779126cb20c797eac90fa1 from 987569341137 for 74b94a92c6e72bec0d150ab080623c31 in ap-southeast-1
+INFO - Accepting invitation 02b83ec280ea4d8a6e4f440175451569 from 987569341137 for 28b94a92cb0ddbacca48fdc13dd10df0 in ap-southeast-2
+INFO - Accepting invitation 04b83ec284e2989b06ab95d876049f7b from 987569341137 for d0b94a92cefb0c98fca745d35b5987de in eu-central-1
+INFO - Accepting invitation 1eb83ec27ce4722b43588c45fec8f5ef from 987569341137 for f2b94a92d1cb7c46d59b8c36dcbd5b54 in us-east-2
+INFO - Accepting invitation 54b83ec27fcf97ccfd1c334ba82b2eb5 from 987569341137 for 8cb94a92d48409dbd974aefc22a96802 in us-west-1
+Using cnp aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation f4b83ec2a1dc324a4c468ffde8ee60c4 from 987569341137 for f6b94a92db3a10ec812f7cf909a2177f in eu-north-1
+INFO - Accepting invitation 2ab83ec295c4d65f224c9eee7bfeec92 from 987569341137 for e8b94a92dfee33b115f181e6f01141b7 in ap-south-1
+INFO - Accepting invitation 6ab83ec28ea5919863f0a08e7a63a0aa from 987569341137 for a6b94a92e443e8583294f003c5b5ca1b in eu-west-3
+INFO - Accepting invitation a2b83ec29bf2bd6a5979c80c7f9dc994 from 987569341137 for a2b94a92e7b03a1495009874e12b944c in eu-west-2
+INFO - Accepting invitation 74b83ec28aeebea37b769db10c7ca4d6 from 987569341137 for c2b94a92eb532e8714bc5d300117a5d7 in eu-west-1
+INFO - Accepting invitation feb83ec28c266e3855a88fae9509282b from 987569341137 for 92b94a92ee07e298b2887df0da7771be in ap-northeast-2
+INFO - Accepting invitation aeb83ec29ffb7a21c186e570667669bc from 987569341137 for beb94a92f19a8e95e57411a7e5e9b64d in ap-northeast-1
+INFO - Accepting invitation 10b83ec2906cccc387ead62ec6b7115c from 987569341137 for eab94a92f5a20a33c1bf7593d4074c29 in sa-east-1
+INFO - Accepting invitation 56b83ec28fbdb3fbb88155a98e6ad9fd from 987569341137 for 38b94a92f8bb6015b4ca59c77b3e4e58 in ca-central-1
+INFO - Accepting invitation 6eb83ec29289affcb6655fc1fd0a911f from 987569341137 for 7eb94a92fc7e992f780ed8bd60bd2005 in ap-southeast-1
+INFO - Accepting invitation d2b83ec2993542ce986f23d96098768a from 987569341137 for 6cb94a9300146eefd72aa0bd0e9f670e in ap-southeast-2
+INFO - Accepting invitation c6b83ec29d158b21c5aac354990c16a9 from 987569341137 for eab94a9303ff914ef658b7618acc4426 in eu-central-1
+INFO - Accepting invitation c0b83ec294ef8647bdf2d18369ed3b96 from 987569341137 for 10b94a93067f73eb9e9c2a1f5c8ca663 in us-east-2
+INFO - Accepting invitation 20b83ec297f513dc0547c89e0e029300 from 987569341137 for e6b94a930834e9c326c1fdbdf5c9fb8f in us-west-1
+Using efd-dev aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using efd-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using efd-stage aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using marklogic-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation 6ab83e88824d12dc5dcb290897ea0d25 from 987569341137 for 5ab94a937664919aa642f584f4e62a5a in us-east-1
+INFO - Accepting invitation d0b83e8887fa23aefd5e5353066ea240 from 987569341137 for 22b94a9379c8fbfcd06c514fcb9d3038 in eu-north-1
+INFO - Accepting invitation 7ab83e887b161af7d4eacbd5cc51a0c5 from 987569341137 for a2b94a937feb46cddab67dbf1e122d8d in ap-south-1
+INFO - Accepting invitation 06b83e88748faecfd6bae72cc6f17dac from 987569341137 for e4b94a938563bfdf06cadd91561d4a6c in eu-west-3
+INFO - Accepting invitation 6cb83e8882b34466c85fabcc51a508cc from 987569341137 for f6b94a9388e33f954222b77e4cc56403 in eu-west-2
+INFO - Accepting invitation 82b83e887081776017ce0fdf0c701689 from 987569341137 for d6b94a938ce50cf1286eb8b85a4f74eb in eu-west-1
+INFO - Accepting invitation e2b83e887293d1f61ad1741550785b9e from 987569341137 for 78b94a9390433b9a09fae10b8a92f7ec in ap-northeast-2
+INFO - Accepting invitation 60b83e888617c218deead896213a693e from 987569341137 for 06b94a939350d4ffa9d10e03210a46b6 in ap-northeast-1
+INFO - Accepting invitation ceb83e887658448fa2b7cbba4d726345 from 987569341137 for 9ab94a93975891974f4174f036dfb470 in sa-east-1
+INFO - Accepting invitation c6b83e8875aa59637488218e23a0f545 from 987569341137 for 94b94a939b0cd38de34fc42946f1603d in ca-central-1
+INFO - Accepting invitation 34b83e88780e80664dbc37da4c35e822 from 987569341137 for 68b94a939f3c83a4a2af66c74cb07f67 in ap-southeast-1
+INFO - Accepting invitation c8b83e8880111203485f766df27833cd from 987569341137 for 84b94a93a2c7106bf626bda059cc0059 in ap-southeast-2
+INFO - Accepting invitation 32b83e888390764cbdcabd2f1379af0c from 987569341137 for ecb94a93a7079239d1d7d264be53af49 in eu-central-1
+INFO - Accepting invitation 38b83e887a68280751273911d58ea01e from 987569341137 for 06b94a93a9d01e450788a3e89fec8d57 in us-east-2
+INFO - Accepting invitation 64b83e887d46a29469de1f0bc8b02fd0 from 987569341137 for cab94a93ab1691cb1254e0f263f73097 in us-west-1
+INFO - Accepting invitation ecb83e8884c93257824bc4e36d768896 from 987569341137 for f0b94a93ac4e0cfee1801e488541db31 in us-west-2
+Using marklogic-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation 08b83e889a5491369b13510991649a3b from 987569341137 for 2ab94a93aee899c692aac4da1baadc31 in us-east-1
+INFO - Accepting invitation 68b83e88a2b999c8d8248cfae156bb93 from 987569341137 for 30b94a93b1ecdb2a573cf64f73ca8552 in eu-north-1
+INFO - Accepting invitation 7cb83e8894bf10ad5544522c027f71e3 from 987569341137 for 82b94a93b7b6ad86e8fa3217cb40dbe1 in ap-south-1
+INFO - Accepting invitation 48b83e888cbad518c49903f402101832 from 987569341137 for 66b94a93bd8e8810edc146ea0b9f9fde in eu-west-3
+INFO - Accepting invitation 24b83e889ad43c868f45e51f4f33b18e from 987569341137 for deb94a93c1d7390c3ea4745570f1a63a in eu-west-2
+INFO - Accepting invitation 50b83e888965fd6c0c032a8ecfe471e5 from 987569341137 for 38b94a93c53883302e1de0820e3961c1 in eu-west-1
+INFO - Accepting invitation c8b83e888aa8fc4d3d1db876af1eb54b from 987569341137 for 34b94a93c8af0a902229ef4f960d73d9 in ap-northeast-2
+INFO - Accepting invitation 9cb83e88a0bcbbdd4665b32520ca66de from 987569341137 for 60b94a93cbe4201364dbf667d42cf9cb in ap-northeast-1
+INFO - Accepting invitation 9cb83e888ebfca97f41ddc6cf082ef9d from 987569341137 for 42b94a93cff949acb1a16c63efcf250b in sa-east-1
+INFO - Accepting invitation 7eb83e888e0b6c20a8c2e8dec1695e84 from 987569341137 for 8cb94a93d3379fc2c52015b5fb52a4a2 in ca-central-1
+INFO - Accepting invitation e6b83e88915437d740b131559b7764ab from 987569341137 for 70b94a93d6c6de7bcb9d7b5395ff7cf8 in ap-southeast-1
+INFO - Accepting invitation c8b83e88982f808e704b2dbd746f9839 from 987569341137 for e4b94a93dad3f804cb77c455056b240a in ap-southeast-2
+INFO - Accepting invitation 82b83e889c7906a9e578db8ba1336466 from 987569341137 for 66b94a93dea9b2d1ef4a388f9371f968 in eu-central-1
+INFO - Accepting invitation f2b83e889402b1b63664a9d012a93e6b from 987569341137 for a0b94a93e127013af455a9950a33bfd5 in us-east-2
+INFO - Accepting invitation ecb83e8896fb422f15c4e7a1e89233e3 from 987569341137 for bcb94a93e31aab0aa170ea9770c44046 in us-west-1
+INFO - Accepting invitation b0b83e889eae3f6fdfde545397242ed9 from 987569341137 for b6b94a93e5435528d0bfd8803a1d4f1f in us-west-2
+Using msb-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation 04b83eaf6070dbe89159a254be63920d from 987569341137 for 62b94a93e847341dfea78dd05e3f3b67 in us-east-1
+INFO - Accepting invitation 50b83eaf67a41b368e2f418d34efac90 from 987569341137 for feb94a93ebdec59fa6d114b074f05186 in eu-north-1
+INFO - Accepting invitation 0ab83eaf5ac3784d74ea752061e9b58c from 987569341137 for 36b94a93f1cf186827686c9c24431a05 in ap-south-1
+INFO - Accepting invitation ccb83eaf53079d54a05ba3a6fdaf6c18 from 987569341137 for beb94a93f75f70eedf600c8769056246 in eu-west-3
+INFO - Accepting invitation 8cb83eaf61224e1499a261606eeed405 from 987569341137 for f0b94a93fbe249408d9cfba884bc5c8a in eu-west-2
+INFO - Accepting invitation 4eb83eaf4f610e01c36f46be03777ba7 from 987569341137 for e8b94a93ffaccebc0aa15e91e6b666f2 in eu-west-1
+INFO - Accepting invitation 2cb83eaf50a30d03681a7d8e279db4d5 from 987569341137 for ecb94a940319fb3aa564eb13dc8a9439 in ap-northeast-2
+INFO - Accepting invitation eeb83eaf65aa188e4823c243ee96eddf from 987569341137 for f0b94a940685d3cee731c06b9be2995d in ap-northeast-1
+INFO - Accepting invitation 9eb83eaf54d7a82b17dcff7b145d101f from 987569341137 for 6eb94a940a78847bdd654ea33a86ba55 in sa-east-1
+INFO - Accepting invitation 04b83eaf5444257ad816ff7a4cc4ef73 from 987569341137 for a6b94a940fcfdacaf747b61865605142 in ca-central-1
+INFO - Accepting invitation 92b83eaf56a69d35b4a11bcfb6e1e189 from 987569341137 for d4b94a9413989cee72978849eb8d52a4 in ap-southeast-1
+INFO - Accepting invitation 04b83eaf5e4578490d56101a6b8d0d24 from 987569341137 for f6b94a9416b373d0bde7d46a0aa96524 in ap-southeast-2
+INFO - Accepting invitation 80b83eaf62ac2b4c7036b29fd19d3c25 from 987569341137 for b2b94a941b135319b8d19e6717199e04 in eu-central-1
+INFO - Accepting invitation beb83eaf5915f07f28a3cf9c434045be from 987569341137 for 74b94a941d9e96ca04a2001554613f3e in us-east-2
+INFO - Accepting invitation 1eb83eaf5d1ce1af8c71a650287e0357 from 987569341137 for f8b94a941f1ebe0c4dc552a06eb08a4a in us-west-1
+INFO - Accepting invitation 70b83eaf644b82cbcafc302472e5d139 from 987569341137 for 64b94a9420875af87d405adba961c42c in us-west-2
+Using msb-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation 84b83ec2e65fb4bba160c6935931c83f from 987569341137 for 58b94a9423e602e5c291f45d1aa8052a in us-east-1
+INFO - Accepting invitation f6b83ec2ed9e766fa3f951d6aa549c87 from 987569341137 for 6cb94a942726865f94c72f9f2fb99aa2 in eu-north-1
+INFO - Accepting invitation bcb83ec2e0d694e2b9de2a39d9b466a9 from 987569341137 for ecb94a942ccc1f0061060a2f6a33015b in ap-south-1
+INFO - Accepting invitation f6b83ec2d90cab83754cc3306b69f185 from 987569341137 for 94b94a94337bfe58e7270fbd5b154fe7 in eu-west-3
+INFO - Accepting invitation 7ab83ec2e6da6e270c682336e73a2ae5 from 987569341137 for 46b94a94371845c0456ea1dd3497f1b6 in eu-west-2
+INFO - Accepting invitation 78b83ec2d59f9ab62c5b63cc24b18ee9 from 987569341137 for 64b94a943a95f522cb5f25c8011806e9 in eu-west-1
+INFO - Accepting invitation 10b83ec2d6eceb280eb693be7148d8b7 from 987569341137 for b2b94a943ea4cde4ffb7e1439f5b8eac in ap-northeast-2
+INFO - Accepting invitation 14b83ec2ebabde287578425e826615dc from 987569341137 for d6b94a94422e184172e51b169e08f960 in ap-northeast-1
+INFO - Accepting invitation 52b83ec2dada5a12a72f552f3c1ca4a4 from 987569341137 for f4b94a94466827f789873b4e1a31a491 in sa-east-1
+INFO - Accepting invitation 14b83ec2da346959bb5493bf9dc7e73b from 987569341137 for 16b94a9449fba9b3357dc6de88fb4b39 in ca-central-1
+INFO - Accepting invitation 46b83ec2dd7847e894084a6670ef0172 from 987569341137 for 2eb94a944da2eead17aa65113a603087 in ap-southeast-1
+INFO - Accepting invitation 78b83ec2e4259a06ba078475e337dec3 from 987569341137 for 12b94a9451807a12b660cb431a09f5d3 in ap-southeast-2
+INFO - Accepting invitation 96b83ec2e85e81ee3314a67e534bb628 from 987569341137 for 76b94a94557b5247df8141fca1a1f7fb in eu-central-1
+INFO - Accepting invitation e2b83ec2e01ac84b97fc5145d027ce2f from 987569341137 for 30b94a94583a51045bcd0d43063184af in us-east-2
+INFO - Accepting invitation 00b83ec2e308fdd132da8b027e412091 from 987569341137 for a2b94a9459bf4f8a478934f9859726da in us-west-1
+INFO - Accepting invitation e2b83ec2e9a0bc34d1f40890983800ca from 987569341137 for 04b94a945b03bdeb181376bf9a88cf8d in us-west-2
+Using ops aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation 46b83eae98d0dcb627e5cce73b409144 from 987569341137 for f6b94a945e365aaf6b4201846f2d1af5 in us-east-1
+INFO - Accepting invitation 30b83eae9efab7dce7cc41c65f9cc874 from 987569341137 for ceb94a94616698c2909cba2f437adb73 in eu-north-1
+INFO - Accepting invitation 9cb83eae9329acd296a10140be5d854c from 987569341137 for 68b94a94656685eb63ac8c39870e379b in ap-south-1
+INFO - Accepting invitation 78b83eae8c917c84ea9d8382eebe7a92 from 987569341137 for e0b94a9469c59fe46dfb81a567f07e50 in eu-west-3
+INFO - Accepting invitation 7ab83eae995a96a15f47205a363ddaca from 987569341137 for 6cb94a946d388ff6a8866de54ffb25ab in eu-west-2
+INFO - Accepting invitation 44b83eae8932acf4daedf1c20dac5cd1 from 987569341137 for deb94a9470714893a378276d5a47a308 in eu-west-1
+INFO - Accepting invitation 08b83eae8a66affeebd3f71c446de99b from 987569341137 for 18b94a9473a8d6162112fc55c9b2d4da in ap-northeast-2
+INFO - Accepting invitation bcb83eae9d287497177923bfb1130b41 from 987569341137 for 52b94a94784cf35daeadd8d5dd7b9a77 in ap-northeast-1
+INFO - Accepting invitation 28b83eae8e613626a771246ccc0de8cd from 987569341137 for 44b94a947c7e428838d1b24481854527 in sa-east-1
+INFO - Accepting invitation 40b83eae8dc6a25842647f51c4557ac1 from 987569341137 for 62b94a9480357593a93eebca14bea071 in ca-central-1
+INFO - Accepting invitation 64b83eae901dbf5ca7f75a9c559aa942 from 987569341137 for a0b94a9483f59baa35824b09f6729269 in ap-southeast-1
+INFO - Accepting invitation cab83eae96a9ce93b73b7659281f6e1f from 987569341137 for 9cb94a9489085b491c950fa2e448aa0c in ap-southeast-2
+INFO - Accepting invitation 64b83eae9a947710c5b27c2daec36218 from 987569341137 for 42b94a948ce1ccf1afe307239db4f0ee in eu-central-1
+INFO - Accepting invitation 64b83eae92797e3687d88e89b7b7a48d from 987569341137 for 84b94a948f5493dc227e449cb7be12eb in us-east-2
+INFO - Accepting invitation b2b83eae95772f2d9db65a3e371c74a9 from 987569341137 for 28b94a9490bbc042152960a36fc70dc4 in us-west-1
+Using tops aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation 98b83e8916f96f2c2f3533a64f7c085b from 987569341137 for 66b94a949481ef91541f2bfadc07545b in us-east-1
+INFO - Accepting invitation 04b83e891ea26fad5d014c47bb93bda1 from 987569341137 for 74b94a9498242843a5b0baf8e216a2d8 in eu-north-1
+INFO - Accepting invitation a6b83e8910ca9de4856cff8e7581d957 from 987569341137 for 60b94a949e5f2055e6256c663f54fa46 in ap-south-1
+INFO - Accepting invitation d2b83e890a13cb5d6611e442c8413605 from 987569341137 for d4b94a94a413f8ce963af51f0c157a16 in eu-west-3
+INFO - Accepting invitation f8b83e8917e3fc820ef1498c9425590d from 987569341137 for a6b94a94a830ff6087022551ada4d14c in eu-west-2
+INFO - Accepting invitation fab83e8906ceda816e4b27b57fcf130a from 987569341137 for d0b94a94ab9c3049f2d6c32e537aa4ee in eu-west-1
+INFO - Accepting invitation f8b83e89080880a3eefbb7570a6fd6be from 987569341137 for d4b94a94aef1545dff3d55ad5edacb5c in ap-northeast-2
+INFO - Accepting invitation c0b83e891ca9e87bc524ba945234d9df from 987569341137 for b8b94a94b1b1714ebf5ac55fdcef8f55 in ap-northeast-1
+INFO - Accepting invitation 46b83e890be2a393e45c38edea965a75 from 987569341137 for d4b94a94b5ad0dd0b336cb4afdd01116 in sa-east-1
+INFO - Accepting invitation 8cb83e890b2fb820d7964e27aa47ab3a from 987569341137 for 1cb94a94b8e2252b2775dd4999580769 in ca-central-1
+INFO - Accepting invitation a4b83e890dadf7ccb57b97e6b9a86e64 from 987569341137 for a8b94a94bcb407515af106d56c99c4ff in ap-southeast-1
+INFO - Accepting invitation 5cb83e891483c99c17ef0b909f6d6d91 from 987569341137 for 0eb94a94c0a492ca094071c609ae94ff in ap-southeast-2
+INFO - Accepting invitation 42b83e89196be1bc6e7a8104b9fc65d7 from 987569341137 for 4cb94a94c519dbb16d166129b0ec3718 in eu-central-1
+INFO - Accepting invitation f8b83e89101385dcfd224c56638b8a85 from 987569341137 for 64b94a94c7b820e2329bea224a6508d3 in us-east-2
+INFO - Accepting invitation 00b83e8912ff41dafec85057db720d4a from 987569341137 for 9cb94a94c8ed75f027665a54b5fddc07 in us-west-1
+INFO - Accepting invitation dcb83e891aa26a1a41aeb477035988d8 from 987569341137 for 6eb94a94ca181793581ca04ef164efd8 in us-west-2
+Using vis-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation dab83eaf92760c6d10ab33d6f07f65c0 from 987569341137 for beb94a94cd84d5dbe24ae108f58f953e in us-east-1
+INFO - Accepting invitation 92b83eaf98a3130b735b717aae1c2f6d from 987569341137 for 54b94a94d1320393fb01cde5d2cbc433 in eu-north-1
+INFO - Accepting invitation fcb83eaf8cf35f0048c5d178482886e9 from 987569341137 for 84b94a94d64d4071e8b418dcd4da8a18 in ap-south-1
+INFO - Accepting invitation 0cb83eaf8667d80a2e16e5dbeac565f3 from 987569341137 for 8ab94a94dc5c32d2eecb1c9d9c71aff2 in eu-west-3
+INFO - Accepting invitation 88b83eaf92f7ae7e4c4545bb438517ec from 987569341137 for b0b94a94e053b373e9a9f5116a95a483 in eu-west-2
+INFO - Accepting invitation b2b83eaf82f7f883b407a476b48fb9fb from 987569341137 for eeb94a94e3c3ec85d70b00a5eabed816 in eu-west-1
+INFO - Accepting invitation 80b83eaf8442e4629c47e8d1d2259640 from 987569341137 for 94b94a94e754f1ad2bc3b195f80b7402 in ap-northeast-2
+INFO - Accepting invitation 74b83eaf96c5a38b5cd90364ffe14260 from 987569341137 for b4b94a94ea57247a46c9c9762bb03ff3 in ap-northeast-1
+INFO - Accepting invitation 4eb83eaf8826711db77286b188f41513 from 987569341137 for 9eb94a94ef76398fe03d471ce9ba9e64 in sa-east-1
+INFO - Accepting invitation 94b83eaf878791d0bf43fb8c9326df06 from 987569341137 for 88b94a94f2bbed0ec5c2d41badf873c8 in ca-central-1
+INFO - Accepting invitation f4b83eaf89f4364aafd6c7f16e096b02 from 987569341137 for acb94a94f6342f1f134469a12de9fa8e in ap-southeast-1
+INFO - Accepting invitation 3ab83eaf9046d05d2b94e597a11544df from 987569341137 for f0b94a94fa36854e2def81d368b671eb in ap-southeast-2
+INFO - Accepting invitation 88b83eaf943413176b2df04777c7801b from 987569341137 for a8b94a94fdda7cdef8e8df86be4ec910 in eu-central-1
+INFO - Accepting invitation 76b83eaf8c454da6adebbafe1af66d38 from 987569341137 for c0b94a95002a864fc3d23ccdbd35f043 in us-east-2
+INFO - Accepting invitation 8eb83eaf8f16e8d60ee2319bf4dbb502 from 987569341137 for b8b94a9501885d4e3c7c8e936609d738 in us-west-1
+INFO - Accepting invitation 9ab83eaf957609a3228e40698fa6cce3 from 987569341137 for 94b94a9502abb051686afbe13228248d in us-west-2
+Using vis-pre aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation 78b83eafaadc7d54cdac2fd48c5fdfa1 from 987569341137 for 12b94a9505a1edee78b3dd287a8bf783 in us-east-1
+INFO - Accepting invitation 6cb83eafb10fbec7e99d23f76d7d7dd8 from 987569341137 for 1eb94a9508bb345775c74136e8b76ee7 in eu-north-1
+INFO - Accepting invitation b0b83eafa5768fbcc5c6d81174a6262a from 987569341137 for 80b94a950e59f036d083c56599c1a648 in ap-south-1
+INFO - Accepting invitation aab83eaf9ddab8244adbb8dc35e2b79d from 987569341137 for c0b94a95143c2532107cbd0a07cfc946 in eu-west-3
+INFO - Accepting invitation 00b83eafab60f7e2a1df51303a344e86 from 987569341137 for 42b94a951856e3c57b29a20cf7f9851e in eu-west-2
+INFO - Accepting invitation 2ab83eaf9a603be19dcc863b00b17cc0 from 987569341137 for 6cb94a951bc3be9f7196d8c5cdbfcf1f in eu-west-1
+INFO - Accepting invitation b6b83eaf9b942d1bdf1bce1dd7a1c84d from 987569341137 for 46b94a951f3c9b94d1378e1abeaa2f62 in ap-northeast-2
+INFO - Accepting invitation 56b83eafaf265bdb2ebedc5dfc9daa3f from 987569341137 for eab94a9522d90d1f7b6845e90d991f26 in ap-northeast-1
+INFO - Accepting invitation e6b83eaf9fba10f85ec8a4271bdd7990 from 987569341137 for dcb94a9526b33ea3e94d7f4c24ec7c6d in sa-east-1
+INFO - Accepting invitation a2b83eaf9f0e3e8bbe1587e02111fc6b from 987569341137 for 12b94a9529d20a35c15f4cf6928b346f in ca-central-1
+INFO - Accepting invitation 08b83eafa23b5b15a6e376d9b241b9ff from 987569341137 for 46b94a952da99c8cdcfafd1f5bde5854 in ap-southeast-1
+INFO - Accepting invitation 62b83eafa8b97bcc1f1ea08f671f3890 from 987569341137 for 42b94a95323652edad101dad4f8dffc1 in ap-southeast-2
+INFO - Accepting invitation c6b83eafac96ab2850a94d651faae73f from 987569341137 for 06b94a9535f58aecd3f39c29ae377544 in eu-central-1
+INFO - Accepting invitation 20b83eafa4aeae0d00cb85f7166543c3 from 987569341137 for a4b94a9538b50903832330888b02bdb0 in us-east-2
+INFO - Accepting invitation 26b83eafa7a2280aa6afe2a73970be7c from 987569341137 for 4eb94a953a2d2acce623e60045f54d10 in us-west-1
+INFO - Accepting invitation 0cb83eafaddf86a770afd70ae71e1790 from 987569341137 for 9ab94a953bd4d2c533da9d6db370dd5c in us-west-2
+Using vis-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Accepting invitation d0b83eafc240d2dfc051e9c0130c4692 from 987569341137 for 20b94a953ebed9303e49db37b88c3efa in us-east-1
+INFO - Accepting invitation 76b83eafc8a4d58e7ee918a0e218878a from 987569341137 for 14b94a9542cefe25fc93a66625c8e2c7 in eu-north-1
+INFO - Accepting invitation 64b83eafbcbb40bdee81993a3e6c4abf from 987569341137 for 6ab94a954864d2212e66bf6406ac4768 in ap-south-1
+INFO - Accepting invitation dcb83eafb644600c5289bdd74a6ac799 from 987569341137 for e8b94a954e012a8244bf5e9ec38aeb33 in eu-west-3
+INFO - Accepting invitation 2ab83eafc2c3833b17938dae4319c634 from 987569341137 for 7ab94a955227ada9d2302b8b9ae56c4e in eu-west-2
+INFO - Accepting invitation ecb83eafb27f72f95faff3d91e03acf5 from 987569341137 for ceb94a95552136256b912cab5e137708 in eu-west-1
+INFO - Accepting invitation 0ab83eafb4035b974973b4776970ed60 from 987569341137 for 0eb94a9558fcd6473105f287ef263e3f in ap-northeast-2
+INFO - Accepting invitation eab83eafc6a44876ca56640667517d56 from 987569341137 for 5cb94a955c8b65e8e111f515ed0f8bfb in ap-northeast-1
+INFO - Accepting invitation 1ab83eafb7f83e50a1a7beb22cd59ddc from 987569341137 for a8b94a95607a122200aa7f76759419ce in sa-east-1
+INFO - Accepting invitation 8eb83eafb76142540f166e465111bfd9 from 987569341137 for 42b94a9563b33cfafbce48b11299eb3d in ca-central-1
+INFO - Accepting invitation 5eb83eafb9ae24dd50a60d51e724d198 from 987569341137 for d4b94a95674a5ff8d26d7a398a444418 in ap-southeast-1
+INFO - Accepting invitation dcb83eafc0198e7df465548914b2053c from 987569341137 for 64b94a956a7200355893727f369649db in ap-southeast-2
+INFO - Accepting invitation 72b83eafc400e6d07706f018031bc564 from 987569341137 for cab94a956fe2dc215e68e4c1b209656c in eu-central-1
+INFO - Accepting invitation fcb83eafbc115f4cced18d1c1998627e from 987569341137 for 06b94a9572931c1a450b58f77ec15fe3 in us-east-2
+INFO - Accepting invitation f8b83eafbef83500b42f33fb6dc95138 from 987569341137 for f8b94a95742814b21684f90ed14aa55b in us-west-1
+INFO - Accepting invitation 44b83eafc550e9aff4cd00841878efdf from 987569341137 for 1cb94a9575d3d29d321e8cb6fda066de in us-west-2
+
+~/Code/warnerbros/aws-fast-fixes/guardduty
+🍻 ./enable-guard-duty-multi-account.sh "python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137"
+Using ask aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using ask-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using cmd-test aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Enabling GuardDuty in us-east-1
+INFO - Accepting invitation ccb83e88b441c3b07770633fc73d433f from 987569341137 for a2b94aa04d1d6a411564980485451f44 in us-east-1
+INFO - Enabling GuardDuty in eu-north-1
+INFO - Accepting invitation 02b83e88baeb3440ab92c664286811d3 from 987569341137 for c4b94aa0511944c9de9da5063d3d4b26 in eu-north-1
+INFO - Enabling GuardDuty in ap-south-1
+INFO - Accepting invitation b6b83e88aec7436bf54243b044e9d2b5 from 987569341137 for 6cb94aa0587fca0eec0624fde08810c3 in ap-south-1
+INFO - Enabling GuardDuty in eu-west-3
+INFO - Accepting invitation 56b83e88a7f9c9f9ebbc43712b685827 from 987569341137 for 10b94aa05ff640268acbbf27d8d7ae55 in eu-west-3
+INFO - Enabling GuardDuty in eu-west-2
+INFO - Accepting invitation 70b83e88b4ce714324031f09619af895 from 987569341137 for 3cb94aa064ee9fb4df72a3dc87f835bc in eu-west-2
+INFO - Enabling GuardDuty in eu-west-1
+INFO - Accepting invitation 82b83e88a4c63e257d7cc13c2947e811 from 987569341137 for 58b94aa069a0e3f143ed40c9f4820b2f in eu-west-1
+INFO - Enabling GuardDuty in ap-northeast-2
+INFO - Accepting invitation 08b83e88a5e4d08a2ba5dca5dbb38c6d from 987569341137 for 96b94aa06e5540c2849632f5513e56b0 in ap-northeast-2
+INFO - Enabling GuardDuty in ap-northeast-1
+INFO - Accepting invitation f4b83e88b88d65abaa5fbdf07cb3e856 from 987569341137 for a0b94aa0722b129192694d8d02594f67 in ap-northeast-1
+INFO - Enabling GuardDuty in sa-east-1
+INFO - Accepting invitation d6b83e88a9c8e1251f7de550112b201d from 987569341137 for 5ab94aa076d63d3a76177d76fb2f7d74 in sa-east-1
+INFO - Enabling GuardDuty in ca-central-1
+INFO - Accepting invitation c6b83e88a91d9a87078a51b77ba2d5a0 from 987569341137 for bab94aa07acd3b6653c9f76667601252 in ca-central-1
+INFO - Enabling GuardDuty in ap-southeast-1
+INFO - Accepting invitation 30b83e88abd218114fb22a1dfffefb77 from 987569341137 for 44b94aa07fb33c9b9f2a69450b4a222a in ap-southeast-1
+INFO - Enabling GuardDuty in ap-southeast-2
+INFO - Accepting invitation 2cb83e88b2127941a075ee063da130bb from 987569341137 for b8b94aa0850ca9a97ee96fbec65d4169 in ap-southeast-2
+INFO - Enabling GuardDuty in eu-central-1
+INFO - Accepting invitation b2b83e88b606ede98f2d6e87241ca8a2 from 987569341137 for 84b94aa08b834c8810483db5562e18e1 in eu-central-1
+INFO - Enabling GuardDuty in us-east-2
+INFO - Accepting invitation 54b83e88ae130ceac9e183826b152a48 from 987569341137 for 14b94aa08ed7222be21cc16aba48da84 in us-east-2
+INFO - Enabling GuardDuty in us-west-1
+INFO - Accepting invitation aab83e88b0e4819c88d771a0a8847457 from 987569341137 for d2b94aa091288eae537753e52fe182d0 in us-west-1
+INFO - Enabling GuardDuty in us-west-2
+INFO - Accepting invitation e2b83e88b73b37c29013073c96764f08 from 987569341137 for 5cb94aa09447650b7372dcc66bd4e852 in us-west-2
+Using cn-micro-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using cn-micro-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using cnd aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using cnp aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using efd-dev aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using efd-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using efd-stage aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using gamedme-media-processing aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Enabling GuardDuty in us-east-1
+INFO - Accepting invitation f2b83e9240b561476b6ceb8cf1e9afaf from 987569341137 for 00b94aa18adcb812473a46d2dbad92d2 in us-east-1
+INFO - Enabling GuardDuty in eu-north-1
+INFO - Accepting invitation 16b83e924835cdae1ed33635c15d3e04 from 987569341137 for 92b94aa18fa73b71ade4897f14166307 in eu-north-1
+INFO - Enabling GuardDuty in ap-south-1
+INFO - Accepting invitation 86b83e923b29fa82e6403a98d3546f28 from 987569341137 for 56b94aa195fcdcd00ce8094ea733b7e3 in ap-south-1
+INFO - Enabling GuardDuty in eu-west-3
+INFO - Accepting invitation 64b83e9234c7d8fbf1bfab897922a9af from 987569341137 for 9eb94aa19d8db6d8eb6922f959134279 in eu-west-3
+INFO - Enabling GuardDuty in eu-west-2
+INFO - Accepting invitation 58b83e9241305c22f93b5ee3f72f6511 from 987569341137 for 94b94aa1a2d72c3c6b14a72361cb4b47 in eu-west-2
+INFO - Enabling GuardDuty in eu-west-1
+INFO - Accepting invitation 0ab83e92318e41c9f7a45816e6036134 from 987569341137 for 3eb94aa1a6e13c0e53680a006d6cff9c in eu-west-1
+INFO - Enabling GuardDuty in ap-northeast-2
+INFO - Accepting invitation 58b83e9232b7634bf6aad64af42bc895 from 987569341137 for 9cb94aa1ace17e29bb2dcca6a93a7124 in ap-northeast-2
+INFO - Enabling GuardDuty in ap-northeast-1
+INFO - Accepting invitation f2b83e9245f547637fe457117c935f7a from 987569341137 for 8ab94aa1b1342c178312e856c83c5a26 in ap-northeast-1
+INFO - Enabling GuardDuty in sa-east-1
+INFO - Accepting invitation ceb83e9236974c35e55b7ad32d442e6f from 987569341137 for 1eb94aa1b691088e13f90b30acbc5cfd in sa-east-1
+INFO - Enabling GuardDuty in ca-central-1
+INFO - Accepting invitation f0b83e9235fad183b938db8d87daa2d3 from 987569341137 for 62b94aa1bab0e721f5539cc43605e038 in ca-central-1
+INFO - Enabling GuardDuty in ap-southeast-1
+INFO - Accepting invitation e6b83e923840298fc254bd6a6069c6ac from 987569341137 for a6b94aa1bf93fe3ab43c8bbca7341a2e in ap-southeast-1
+INFO - Enabling GuardDuty in ap-southeast-2
+INFO - Accepting invitation beb83e923e91433cc9c675994e173bc7 from 987569341137 for 30b94aa1c531aecff206b36dd06d5afb in ap-southeast-2
+INFO - Enabling GuardDuty in eu-central-1
+INFO - Accepting invitation 58b83e92425bfdd5a7a29e8e60de9a13 from 987569341137 for b8b94aa1caa73023f8c27c0ad4d36946 in eu-central-1
+INFO - Enabling GuardDuty in us-east-2
+INFO - Accepting invitation 96b83e923a864b2ef8776b77f5749fde from 987569341137 for 32b94aa1ceacf4fbd7db48573de01316 in us-east-2
+INFO - Enabling GuardDuty in us-west-1
+INFO - Accepting invitation 96b83e923d6824870f902854539518b2 from 987569341137 for b0b94aa1d1109551f8eb4680aed927cd in us-west-1
+INFO - Enabling GuardDuty in us-west-2
+INFO - Accepting invitation 5cb83e9243e572d5334130ed7d16ec78 from 987569341137 for 3eb94aa1d39dc821c71ef261be280d2f in us-west-2
+Using globarch-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Enabling GuardDuty in us-east-1
+INFO - Accepting invitation d6b83eabec5b4456fcf51e5e47f67690 from 987569341137 for a4b94aa1d7387126cfa90f73c9889e3d in us-east-1
+INFO - Enabling GuardDuty in eu-north-1
+INFO - Accepting invitation acb83eabf31387710b99910e4b26fdec from 987569341137 for d2b94aa1dc0e27ceb860cfad1c53a610 in eu-north-1
+INFO - Enabling GuardDuty in ap-south-1
+INFO - Accepting invitation 5ab83eabe6d4f0a86330004b76794909 from 987569341137 for b0b94aa1e3813426d55f00b16e608d2f in ap-south-1
+INFO - Enabling GuardDuty in eu-west-3
+INFO - Accepting invitation 1eb83eabe0483e924ed8da7a468f27c3 from 987569341137 for 0eb94aa1ebb87903df71922c19e71427 in eu-west-3
+INFO - Enabling GuardDuty in eu-west-2
+INFO - Accepting invitation 7ab83eabecd880f92a0740a0ad3510fd from 987569341137 for d6b94aa1efe7aec54ae328c1069fece6 in eu-west-2
+INFO - Enabling GuardDuty in eu-west-1
+INFO - Accepting invitation 8cb83eabdc0ad0621fd7350bf2dfdbdc from 987569341137 for 0eb94aa1f401df8e773de08e33ce5e48 in eu-west-1
+INFO - Enabling GuardDuty in ap-northeast-2
+INFO - Accepting invitation 6cb83eabde174da34088eed9db1f1c84 from 987569341137 for 54b94aa1f7bf9ef4acba0190326275b9 in ap-northeast-2
+INFO - Enabling GuardDuty in ap-northeast-1
+INFO - Accepting invitation d2b83eabf116f19ed9c87bf2bf741db8 from 987569341137 for ceb94aa1fc349c0521610ec2e3c994d6 in ap-northeast-1
+INFO - Enabling GuardDuty in sa-east-1
+INFO - Accepting invitation 94b83eabe20f1ad5f3d8c4659eb99366 from 987569341137 for 5ab94aa2015ecaec146bac58af8e9058 in sa-east-1
+INFO - Enabling GuardDuty in ca-central-1
+INFO - Accepting invitation 3cb83eabe17a1d99e394233fdef8e9bb from 987569341137 for e2b94aa20647d87697ae4f1eede74008 in ca-central-1
+INFO - Enabling GuardDuty in ap-southeast-1
+INFO - Accepting invitation 44b83eabe3c17ba316905ec69bed2399 from 987569341137 for b0b94aa20a9c666e03d9fc4c694d30c6 in ap-southeast-1
+INFO - Enabling GuardDuty in ap-southeast-2
+INFO - Accepting invitation 5eb83eabea34509ca97aaac6536e4ade from 987569341137 for 72b94aa21032211be28dd147b23b6966 in ap-southeast-2
+INFO - Enabling GuardDuty in eu-central-1
+INFO - Accepting invitation d0b83eabee4fb45ea7bf4c410033f661 from 987569341137 for c8b94aa215750e23c084094c172fc371 in eu-central-1
+INFO - Enabling GuardDuty in us-east-2
+INFO - Accepting invitation 68b83eabe61809d42e05dc5cd60d7d18 from 987569341137 for a0b94aa2192c37031c75d703c6ab6ccd in us-east-2
+INFO - Enabling GuardDuty in us-west-1
+INFO - Accepting invitation 9eb83eabe900dc10020fd1350f2e65b9 from 987569341137 for aab94aa21b2956bb1ecc836776af49ac in us-west-1
+INFO - Enabling GuardDuty in us-west-2
+INFO - Accepting invitation 6eb83eabefd47f25e05a6680a4b56e7b from 987569341137 for 82b94aa21cf0ab9f7166a9f854b40763 in us-west-2
+Using globarch-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Enabling GuardDuty in us-east-1
+INFO - Accepting invitation cab83eac0574ffb9c78aa2aae81da834 from 987569341137 for 2eb94aa220035416d7d5ada89eb43229 in us-east-1
+INFO - Enabling GuardDuty in eu-north-1
+INFO - Accepting invitation ecb83eac0d0fa873e7bc8cc5f4eae322 from 987569341137 for 9eb94aa2252854bc219ab9b6635c16f5 in eu-north-1
+INFO - Enabling GuardDuty in ap-south-1
+INFO - Accepting invitation f8b83eac000922e0d2061674e1415903 from 987569341137 for 7eb94aa22b830c28781f1805a8ddebb6 in ap-south-1
+INFO - Enabling GuardDuty in eu-west-3
+INFO - Accepting invitation 1eb83eabf88ab83ba11cfae37fb0b8c9 from 987569341137 for 4cb94aa23324a119045dc5f9368f51f2 in eu-west-3
+INFO - Enabling GuardDuty in eu-west-2
+INFO - Accepting invitation 00b83eac0667afed76a5263cdcd47924 from 987569341137 for 82b94aa23826579c470cb2a82eec7afc in eu-west-2
+INFO - Enabling GuardDuty in eu-west-1
+INFO - Accepting invitation 24b83eabf4c4bcf279807db881ff310c from 987569341137 for e6b94aa23d7b75238611aa559a322e1e in eu-west-1
+INFO - Enabling GuardDuty in ap-northeast-2
+INFO - Accepting invitation deb83eabf6093d1483672933411cb6db from 987569341137 for 14b94aa24268304f8c59dddcff940cce in ap-northeast-2
+INFO - Enabling GuardDuty in ap-northeast-1
+INFO - Accepting invitation 8ab83eac0b211b9d8715d71bf92da6db from 987569341137 for d2b94aa2468ed0a0ea276d5a5b825811 in ap-northeast-1
+INFO - Enabling GuardDuty in sa-east-1
+INFO - Accepting invitation 4ab83eabfa7bc27e003bdfb5a4ee1c40 from 987569341137 for 58b94aa24ba4c275015af4cadca5611b in sa-east-1
+INFO - Enabling GuardDuty in ca-central-1
+INFO - Accepting invitation 78b83eabf9c11cf1a288437d75db5359 from 987569341137 for 04b94aa24fbd09a448854f288d9bc85f in ca-central-1
+INFO - Enabling GuardDuty in ap-southeast-1
+INFO - Accepting invitation ceb83eabfd09d27587c060d5f4bb2cf3 from 987569341137 for c2b94aa254258957995cbc2f3ad7ae6b in ap-southeast-1
+INFO - Enabling GuardDuty in ap-southeast-2
+INFO - Accepting invitation 1cb83eac03463fcd299be2ec35998211 from 987569341137 for e8b94aa259f0b8986a354c00917174fd in ap-southeast-2
+INFO - Enabling GuardDuty in eu-central-1
+INFO - Accepting invitation 5ab83eac080256354cfb91a6fa6d2700 from 987569341137 for a0b94aa25fcbb5d1ec93acb737216805 in eu-central-1
+INFO - Enabling GuardDuty in us-east-2
+INFO - Accepting invitation 72b83eabff4fd7ae91ff4c88786c16b9 from 987569341137 for 1ab94aa263c092611b384463eb3f6343 in us-east-2
+INFO - Enabling GuardDuty in us-west-1
+INFO - Accepting invitation 98b83eac0231e15c55c97368f7de5f14 from 987569341137 for bab94aa2661a85241be511a31b137af9 in us-west-1
+INFO - Enabling GuardDuty in us-west-2
+INFO - Accepting invitation a2b83eac093957b763cbdb309f9add96 from 987569341137 for e6b94aa2679c2cbc5ea4e11f15aeec50 in us-west-2
+Using holmes-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using holmes-preview aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using holmes-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using marklogic-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using marklogic-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using msb-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using msb-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using ops aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using tops aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using vis-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using vis-pre aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using vis-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+Using wflow-non-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Enabling GuardDuty in us-east-1
+INFO - Accepting invitation 58b83ea9a5bc64762d36d02c5ee0e7eb from 987569341137 for f6b94aa404aa3c9b4b9789f057ef425b in us-east-1
+INFO - Enabling GuardDuty in eu-north-1
+INFO - Accepting invitation e2b83ea9abdef42140d872d9bb0166ac from 987569341137 for 8ab94aa40955b5dc2f12e12a30aa6fb9 in eu-north-1
+INFO - Enabling GuardDuty in ap-south-1
+INFO - Accepting invitation 26b83ea9a0332075649e43be993e60b3 from 987569341137 for 60b94aa410bda11aca57cafbbbbe9a34 in ap-south-1
+INFO - Enabling GuardDuty in eu-west-3
+INFO - Accepting invitation 0eb83ea99951ce9546a919984891bc5a from 987569341137 for 3ab94aa4187012309415a2f120bfe48e in eu-west-3
+INFO - Enabling GuardDuty in eu-west-2
+INFO - Accepting invitation 6cb83ea9a64af0f6a119b0ed5ce06e71 from 987569341137 for 50b94aa41c82411eadf52babc6cad4bf in eu-west-2
+INFO - Enabling GuardDuty in eu-west-1
+INFO - Accepting invitation 08b83ea995461ddfffeef099c0b7f8e5 from 987569341137 for bcb94aa42123222e24f7316b02a169ec in eu-west-1
+INFO - Enabling GuardDuty in ap-northeast-2
+INFO - Accepting invitation eeb83ea99691bf4fb52f76da1585a695 from 987569341137 for b8b94aa4260b3e54b8901b629670d933 in ap-northeast-2
+INFO - Enabling GuardDuty in ap-northeast-1
+INFO - Accepting invitation 28b83ea9a9e26b39807f3d2da1889431 from 987569341137 for 10b94aa42a02981b7686104d86ff9822 in ap-northeast-1
+INFO - Enabling GuardDuty in sa-east-1
+INFO - Accepting invitation 4cb83ea99b80f87fdb38914739f58f1e from 987569341137 for 6cb94aa42f3022a4618a7ceaac06c7e6 in sa-east-1
+INFO - Enabling GuardDuty in ca-central-1
+INFO - Accepting invitation a0b83ea99ad1bcf5bdad6dd27cc9f002 from 987569341137 for aab94aa4346b8708b780c6772fe68c79 in ca-central-1
+INFO - Enabling GuardDuty in ap-southeast-1
+INFO - Accepting invitation c4b83ea99d3894a0222a4d79a69beda1 from 987569341137 for 68b94aa438b06f11e067212bb03894d3 in ap-southeast-1
+INFO - Enabling GuardDuty in ap-southeast-2
+INFO - Accepting invitation c2b83ea9a38b50c84ceb99b51cfd5e50 from 987569341137 for 28b94aa43fd2e0461d56be8ebeb81472 in ap-southeast-2
+INFO - Enabling GuardDuty in eu-central-1
+INFO - Accepting invitation ceb83ea9a7731a352e9bd0bef43cdaa5 from 987569341137 for a2b94aa444bdc1474ee69e87588c3719 in eu-central-1
+INFO - Enabling GuardDuty in us-east-2
+INFO - Accepting invitation 02b83ea99f7a56b67ce2d486b7738e37 from 987569341137 for 8ab94aa448e01a1eb204abb389674a79 in us-east-2
+INFO - Enabling GuardDuty in us-west-1
+INFO - Accepting invitation 20b83ea9a2659c404a127e5220d1741b from 987569341137 for f2b94aa44afeaedcce30209b5e264820 in us-west-1
+INFO - Enabling GuardDuty in us-west-2
+INFO - Accepting invitation f2b83ea9a8b3e931da6adf12c5e20c50 from 987569341137 for aab94aa44ca19ccf22bd07fc96d742dd in us-west-2
+Using wflow-prod aws profile
+Running: python3 enable-guardduty.py --actually-do-it --accept-invite 987569341137
+INFO - Enabling GuardDuty in us-east-1
+INFO - Accepting invitation 4cb83ea9bf104c43b50148917494784e from 987569341137 for 5ab94aa450946b99d6bf1bf89182efd7 in us-east-1
+INFO - Enabling GuardDuty in eu-north-1
+INFO - Accepting invitation 7cb83ea9c5bd53360bc42d362ec406a0 from 987569341137 for 26b94aa4557315e36997b3f5633f244b in eu-north-1
+INFO - Enabling GuardDuty in ap-south-1
+INFO - Accepting invitation 5eb83ea9b833e3e2c6ced772ed7310a9 from 987569341137 for aeb94aa45c5e6c5f8148b7f56c109514 in ap-south-1
+INFO - Enabling GuardDuty in eu-west-3
+INFO - Accepting invitation 7ab83ea9b176973ec8ef2f05ea9e2eba from 987569341137 for 18b94aa462eb3ad4363f45c4603bd80c in eu-west-3
+INFO - Enabling GuardDuty in eu-west-2
+INFO - Accepting invitation 2ab83ea9bfb3c307058cbb2f04aecb4a from 987569341137 for e0b94aa467a90009bec167c4868b03d3 in eu-west-2
+INFO - Enabling GuardDuty in eu-west-1
+INFO - Accepting invitation a2b83ea9ad57405f91f4eb5914b4418d from 987569341137 for 24b94aa46ca6859e09a7bfcc5b51f51f in eu-west-1
+INFO - Enabling GuardDuty in ap-northeast-2
+INFO - Accepting invitation 0cb83ea9aef2a359c45fb237a497d404 from 987569341137 for 46b94aa47195c6e389d71b7baa49b639 in ap-northeast-2
+INFO - Enabling GuardDuty in ap-northeast-1
+INFO - Accepting invitation 2ab83ea9c3ca78122bb1c240947c2c40 from 987569341137 for c8b94aa476054b5b06de09de5cc92166 in ap-northeast-1
+INFO - Enabling GuardDuty in sa-east-1
+INFO - Accepting invitation 68b83ea9b33d2d1d5be4afc45e4da560 from 987569341137 for d4b94aa47b54f5ec62be54f54a14b004 in sa-east-1
+INFO - Enabling GuardDuty in ca-central-1
+INFO - Accepting invitation 24b83ea9b29527b558d2e10368e96a11 from 987569341137 for deb94aa480455eb9b9ed73cfe30931df in ca-central-1
+INFO - Enabling GuardDuty in ap-southeast-1
+INFO - Accepting invitation a8b83ea9b51df266202cbbac6724597b from 987569341137 for b2b94aa4850d7beacc66ec8f820f8523 in ap-southeast-1
+INFO - Enabling GuardDuty in ap-southeast-2
+INFO - Accepting invitation e2b83ea9bce04d6942afcad4f16719b2 from 987569341137 for c4b94aa48a71c0851d82a30c1f9ca9fa in ap-southeast-2
+INFO - Enabling GuardDuty in eu-central-1
+INFO - Accepting invitation f8b83ea9c13386985dde8ea81aae0fcc from 987569341137 for d4b94aa48f9f65be4dddcc24e85d1746 in eu-central-1
+INFO - Enabling GuardDuty in us-east-2
+INFO - Accepting invitation e6b83ea9b7750fc8de7adc0c3c29f084 from 987569341137 for 22b94aa4935cbd701d283940acb7f4ff in us-east-2
+INFO - Enabling GuardDuty in us-west-1
+INFO - Accepting invitation 5ab83ea9bbbb4d24d464183a61bf95d2 from 987569341137 for f6b94aa495b7e09ca9bde7f497b524f3 in us-west-1
+INFO - Enabling GuardDuty in us-west-2
+INFO - Accepting invitation 10b83ea9c2741ecdec30c4db2f0d7ac8 from 987569341137 for 9eb94aa497c46d8a86ba4df125107e62 in us-west-2

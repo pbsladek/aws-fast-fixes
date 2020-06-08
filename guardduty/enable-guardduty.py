@@ -37,16 +37,23 @@ def main(args, logger):
             continue  # Not doing invite acceptance
 
         # Now do the invitations
-        invite_response = guardduty_client.list_invitations() # probably need to support paganation
+        # probably need to support paganation
+        invite_response = guardduty_client.list_invitations()
         for i in invite_response['Invitations']:
             if i['AccountId'] != args.MasterId:
-                logger.warning(f"Invite from {i['AccountId']} is not the expected master. Not gonna accept it, wouldn't be prudent.")
+                logger.warning(
+                    f"Invite from {i['AccountId']} is not the expected master. {args.MasterId}")
+                logger.warning(
+                    f"Invite from {i['AccountId']} is not the expected master. Not gonna accept it, wouldn't be prudent.")
                 continue
             elif args.actually_do_it is True:
-                logger.info(f"Accepting invitation {i['InvitationId']} from {args.MasterId} for {detector_id} in {region}")
-                accept_invitation(guardduty_client, region, detector_id, args.MasterId, i['InvitationId'])
+                logger.info(
+                    f"Accepting invitation {i['InvitationId']} from {args.MasterId} for {detector_id} in {region}")
+                accept_invitation(guardduty_client, region,
+                                  detector_id, args.MasterId, i['InvitationId'])
             else:
-                logger.info(f"Need to accept invitation {i['InvitationId']} from {args.MasterId} for {detector_id} in {region}")
+                logger.info(
+                    f"Need to accept invitation {i['InvitationId']} from {args.MasterId} for {detector_id} in {region}")
 
 
 def accept_invitation(guardduty_client, region, detector_id, master_id, invitation_id):
@@ -59,7 +66,8 @@ def accept_invitation(guardduty_client, region, detector_id, master_id, invitati
     if response['ResponseMetadata']['HTTPStatusCode'] == 200:
         return(True)
     else:
-        logger.error(f"Attempt to accept invitation {invitation_id} from {master_id} for {detector_id} in {region} returned {response}")
+        logger.error(
+            f"Attempt to accept invitation {invitation_id} from {master_id} for {detector_id} in {region} returned {response}")
         return(False)
 
 
@@ -72,7 +80,8 @@ def enable_guarduty(guardduty_client, region):
     if 'DetectorId' in response:
         return(response['DetectorId'])
     else:
-        logger.error(f"Attempt to enable GuardDuty in {region} returned {response}")
+        logger.error(
+            f"Attempt to enable GuardDuty in {region} returned {response}")
         return(False)
 
 
@@ -98,17 +107,24 @@ def get_regions(session, args):
 def do_args():
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--debug", help="print debugging info", action='store_true')
-    parser.add_argument("--error", help="print error info only", action='store_true')
-    parser.add_argument("--timestamp", help="Output log with timestamp and toolname", action='store_true')
+    parser.add_argument(
+        "--debug", help="print debugging info", action='store_true')
+    parser.add_argument(
+        "--error", help="print error info only", action='store_true')
+    parser.add_argument(
+        "--timestamp", help="Output log with timestamp and toolname", action='store_true')
     parser.add_argument("--region", help="Only Process Specified Region")
-    parser.add_argument("--profile", help="Use this CLI profile (instead of default or env credentials)")
-    parser.add_argument("--actually-do-it", help="Actually Perform the action", action='store_true')
-    parser.add_argument("--accept-invite", dest='MasterId', help="Accept an invitation (if present) from this AccountId")
+    parser.add_argument(
+        "--profile", help="Use this CLI profile (instead of default or env credentials)")
+    parser.add_argument(
+        "--actually-do-it", help="Actually Perform the action", action='store_true')
+    parser.add_argument("--accept-invite", dest='MasterId',
+                        help="Accept an invitation (if present) from this AccountId")
 
     args = parser.parse_args()
 
     return(args)
+
 
 if __name__ == '__main__':
 
@@ -132,7 +148,8 @@ if __name__ == '__main__':
 
     # create formatter
     if args.timestamp:
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter(
+            '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     else:
         formatter = logging.Formatter('%(levelname)s - %(message)s')
     # add formatter to ch

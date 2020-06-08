@@ -1,6 +1,6 @@
 #!/bin/bash
-# ./enable-guard-duty-multi-account.sh "aws s3 ls"
-# ./enable-guard-duty-multi-account.sh "python3 enable-guardduty.py --accept-invite 987569341137"
+# ./multi-account.sh "aws s3 ls"
+# ./multi-account.sh "python3 enable-guardduty.py --accept-invite 987569341137"
 
 cmd=$1
 region=${2:-us-west-2}
